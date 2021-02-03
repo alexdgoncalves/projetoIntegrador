@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #7F5539;
+  --secondary-color: #EDE0D4;
+  --primary-font: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  background: #e7e7e7;
+  list-style: none;
+  display: flex;
+}
+
+body,
+input,
+button,
+h1,
+h3 {
+  font-family: 'Playfair Display', serif;
+  color: var(--primary-font);
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+#container {
+  width: 100vw;
+}
